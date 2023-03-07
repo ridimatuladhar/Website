@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first{
+    background-image: url("back.jpg");
+    height: 100vh;
+    background-blend-mode: lighten;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    font-size: 1.4rem;
+    list-style: none;
+    background-color: rgba(43, 4, 4, 0.537);
+    color: rgb(212, 142, 142);
+    padding: 15px;
+    position: fixed;
+    width: 100vw;
+}
+.nav h2{
+    font-family: 'Pacifico', cursive;
+    padding-left: 30px;
+}
+.nav ul{
+    text-align: center;    
+}
+.nav ul li{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.nav ul li a{
+    color: white;
+}
+.nav ul li a i{
+    padding: 8px;
+}
+.nav ul li:hover{
+    background-color: rgba(229, 89, 89, 0.363);
+    border-radius: 22px;
+}
+.nav ul li:hover a{
+    color:black;
+}
+.wel h1, .wel p{
+    text-align: center;
+    font-family: 'Great Vibes', cursive; 
+    font-size: 80px;   
+    color: rgb(24, 1, 1);
+}
+.wel{
+    padding-top: 300px;
+}
+
+#About .left{
+    width: 40vw;
+    padding: 40px;
+    background-color: rgb(60, 10, 10);
+    color: wheat;
+    line-height: 35px;
+}
+#About .left h2{
+    font-size: 3.5em;
+    font-family: 'Great Vibes', cursive; 
+    text-align: center;
+    padding: 30px;
+}
+#About{
+    display: flex;
+    background-color: rgb(60, 10, 10);
+    height: 100vh;
+}
+.image img{
+    height: 50vh;
+    width: 50vw;
+    padding: 20px;
+    padding-top: 100px;
+}
+#menu{
+    padding-top: 40px;
+    background-color: rgb(27, 2, 2) ;
+    color: beige;
+}
+#menu h2{
+    font-size: 4em;
+    font-family: 'Great Vibes', cursive; 
+    text-align: center;
+}
+#menu h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    padding: 15px;
+    padding-left: 45px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .gallery figure {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .gallery img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  .gallery figcaption{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#contact{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 40px;
+    padding-left: 40px;
+    line-height: 2em;
+    background-color: rgba(7, 7, 7);
+    color: white;
+}
+#contact h2{
+    font-family: 'Great Vibes', cursive; 
+    font-size: 3.5em;
+    padding: 20px;
+}
+#contact .msg form, #contact .right{
+    font-size: 1.5emS;
+}
+#contact button{
+    padding: 10px;
+    border-radius: 25%;
+    outline: none;
+}
+#contact a i{
+    padding: 8px;
+}
+.copy{
+    background-color: rgba(7, 7, 7); 
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
